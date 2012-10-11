@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">UStore</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">UStore</string>
+    <string name="LoginRememberMe">Remember me</string>
+    <string name="LoginLabel">login</string>
+    <string name="LoginToShare">Login</string>
+    <string name="PasswordLabel">password</string>
+    <string name="UrlLabel">url</string>
+	<string name="TextHeaderListRowNameField">Name</string>
+	<string name="TextInfoShareLoginName">Please, insert the login user to share the content</string>
+	<string name="TextHeaderListRowSizeField">Size</string>
+	<string name="TextHeaderListRowModificationField">Last updade</string>
+	<string name="ButtonSignIn">Sign In</string>
+	<string name="ButtonCancel">Cancel</string>
+	<string name="ButtonShare">Share</string>
+	<string name="ButtonCreateAccount">Create Account</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+	<color name="gray">#ffff0000</color>
+	<string name="DateFormat">yyyy/MM/dd</string>
+</resources>

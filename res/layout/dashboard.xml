@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/ScreenLayout"
+    android:background="@color/DashBoardBackgroundColor">
+    
+    <include
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        layout="@layout/search" />
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListFileHeaderHeight"
+        android:layout_below="@+id/search"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
+        layout="@layout/listview_header_row" />
+    
+
+    <ListView
+        android:id="@+id/fileList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/menu"
+        android:layout_below="@+id/header"
+        android:fadingEdgeLength="3dp"
+        android:divider="#EEEEEE"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dp"/>
+
+    <include
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/menu" />
+    
+</RelativeLayout>

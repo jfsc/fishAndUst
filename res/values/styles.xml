@@ -1,0 +1,105 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="TextField">
+        <item name="android:background">@drawable/field</item>
+        <item name="android:textColor">@color/TextFieldFontColor</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <color name="BackgroundFileListDialogRow">#EEEEEE</color>
+    <color name="TextFieldFontColor">#CCCCCC</color>
+    <color name="MainBackgroundColor">#DBDBDB</color>
+    <color name="CheckboxTextColor">#999999</color>
+    <color name="TextListRowColor">#666666</color>
+    <color name="BackgroundFileListSelected">#CCCCCC</color>
+    <color name="BackgroundFileList">#FFFFFF</color>
+    <color name="TextHeaderBackgroundListRowColor">#336699</color>
+    <color name="ButtonFontColor">#FFFFFF</color>
+    <color name="TextHeaderListRowColor">#A3A3A3</color>
+    <color name="DashBoardBackgroundColor">#FFFFFF</color>
+    <style name="CheckBoxStyle">
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:textColor">@color/CheckboxTextColor</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="SignInButton">
+        <item name="android:background">@drawable/signin</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:text">@string/ButtonSignIn</item>
+        <item name="android:textColor">@color/ButtonFontColor</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="CancelButton">
+        <item name="android:background">@drawable/createaccount</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:text">@string/ButtonCancel</item>
+        <item name="android:textColor">@color/ButtonFontColor</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="ShareButton">
+        <item name="android:background">@drawable/createaccount</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:text">@string/ButtonShare</item>
+        <item name="android:textColor">@color/ButtonFontColor</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="CreateAccountButton">
+        <item name="android:background">@drawable/createaccount</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:text">@string/ButtonCreateAccount</item>
+        <item name="android:textColor">@color/ButtonFontColor</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="ImageListRow">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@drawable/subfolder_txt</item>
+    </style>
+    <style name="TextListRow">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/TextListRowColor</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="TextHeaderListRow">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/TextHeaderListRowColor</item>
+    </style>
+    <style name="TextInfoShare">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+
+        <item name="android:textSize">13dp</item>
+
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/TextHeaderListRowColor</item>
+    </style>
+    <style name="ScreenLayout">
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+</resources>

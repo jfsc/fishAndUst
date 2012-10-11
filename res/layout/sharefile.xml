@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScreenLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/MainBackgroundColor"
+    tools:context=".screen.ShareFile" >
+    
+    <LinearLayout
+            android:id="@+id/textGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/LogoMainWidth"
+                android:layout_height="@dimen/LogoMainHeight"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
+			
+            <TextView android:id="@+id/InfoLogin"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/TextInfoShareLoginName"
+		        style="@style/TextInfoShare"
+		        />
+            
+            <EditText
+                android:id="@+id/shareUser"
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="2dp"
+                android:inputType="none"
+                android:maxLines="1"
+                android:minWidth="@dimen/MinWidthEditText"
+                android:text="@string/LoginToShare" 
+                android:singleLine="true"/>
+
+            
+           
+
+            <RelativeLayout
+                android:id="@+id/barShare"
+                android:layout_width="@dimen/WidthBarLogin"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="10dp">
+
+				<Button
+                    android:id="@+id/btnShareFile"
+                    style="@style/ShareButton"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content" />
+				
+                <Button
+                    android:id="@+id/btnShareCancel"
+                    style="@style/CancelButton"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+                 
+            </RelativeLayout>
+        </LinearLayout>
+
+</RelativeLayout>

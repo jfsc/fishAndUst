@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/ScreenLayout"
+    android:background="@color/MainBackgroundColor">
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            style="@style/CreateAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:id="@+id/textGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/LogoMainWidth"
+                android:layout_height="@dimen/LogoMainHeight"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/user"
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:maxLines="1"
+                android:minWidth="@dimen/MinWidthEditText"
+                android:text="@string/LoginLabel" 
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:minWidth="@dimen/MinWidthEditText"
+                android:text="@string/PasswordLabel" 
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/url"
+                style="@style/TextField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textWebEditText"
+                android:minWidth="@dimen/MinWidthEditText"
+                android:text="@string/UrlLabel" 
+                android:singleLine="true"/>
+
+            <RelativeLayout
+                android:id="@+id/barLogin"
+                android:layout_width="@dimen/WidthBarLogin"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/checkRemember"
+                    style="@style/CheckBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:button="@drawable/checkbox"
+                    android:checked="true"
+                    android:text="@string/LoginRememberMe" />
+
+                <Button
+                    android:id="@+id/btnSignIn"
+                    style="@style/SignInButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+</RelativeLayout>

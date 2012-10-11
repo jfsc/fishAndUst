@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="MinWidthEditText">320dp</dimen>
+    <dimen name="WidthBarLogin">330dp</dimen>
+	<dimen name="HeaderListFileSizeMarginRight">180dp</dimen>
+	<dimen name="RowListFileSizeMarginRight">60dp</dimen>
+	<dimen name="HeaderListFileNameMarginLeft">70dp</dimen>
+	<dimen name="RowListFileNameMarginLeft">40dp</dimen>
+	<dimen name="HeaderListFileImageFolderMarginLeft">40dp</dimen>
+	<dimen name="DialogChooseFileTextSize">14dp</dimen>
+	<dimen name="ListFileHeaderHeight">60dp</dimen>
+	<dimen name="LogoMainWidth">300dp</dimen>
+	<dimen name="LogoMainHeight">240dp</dimen>
+</resources>
